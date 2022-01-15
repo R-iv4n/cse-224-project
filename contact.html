@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+    <html><head>
+    <title>About</title>
+    <meta charset="UTF-6">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha364-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+    <link href="style.css" rel="stylesheet">
+
+ <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+      
+      </head>
+
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">RivBlogs</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<body>
+<br><br>
+<h3>Feel free to contact</h3>
+
+<div class="container">
+  <div class="contact-title">Comment Here</div>
+<form class="blog-form">
+  <div class="row">
+    <div class="col-md-6 form-group">
+      <input class="form-control" id="name" placeholder="Your Name" type="text" required>
+    </div>
+    <div class="col-md-6 form-group mt-3 mt-md-0">
+      <input class="form-control" id="email" placeholder="Your Email" type="email" required>
+    </div>
+  </div>
+  <div class="form-group mt-3">
+    <input class="form-control" id="subject" placeholder="Subject" type="text" required>
+  </div>
+  <div class="form-group mt-3">
+    <textarea class="form-control" id="message" rows="5" placeholder="Message" type="text" required></textarea>
+  </div>
+
+  <div class="text-center" style="margin-top: 5px;">
+    <button type="submit" onclick="Comment()">Send Message</button>
+  </div>
+</form>
+
+
+<div class="infosResults"> 
+
+</div> 
+
+
+
+</div>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+    <a class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/shadmanazadrivan"></a>
+    <a class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com/r.ivan309/"></a>
+  </footer>
+ 
+    <script src="contact.js"></script>
+</body>
+</html>

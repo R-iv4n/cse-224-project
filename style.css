@@ -1,0 +1,142 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #000000;
+}
+
+
+button{background-color: #b6b4b4; /* Green */
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: #000000;
+  border-radius: 15px;
+}
+
+button:hover {background-color: #555555; /* Green */
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: #000000;
+  box-shadow: black;
+  transition: .3s;
+  border-radius: 0px;
+}
+
+a
+{
+ color: black; text-decoration:none;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  opacity: 0.9;
+  color:black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.993);
+opacity: 1;
+text-decoration: none;
+color: inherit;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 4px 16px;
+  border-bottom: 20px;
+  size: 100%;
+ }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
